@@ -1,0 +1,408 @@
+
+nav{
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    height: 78px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 78px;
+    background-color: #383E4C;
+    position: fixed;
+    z-index: 3;
+}
+nav ul li{
+    display: block;
+    margin: 0 3px;    
+    padding: 0px 10px;
+    border: 0px;    
+}
+li a{
+    padding: 15px 25px;
+    font-size: 19px;
+    color: white;
+    font-family: 'Noto Sans Khmer', sans-serif; 
+    background-color: #484e5c;
+    border: 1px solid #646d7c;     
+}
+.menu{    
+    display: flex;
+    justify-content: space-around;
+}
+
+.section-header{      
+    height: max-content;
+    overflow-x: hidden;
+    overflow-y: auto;
+    perspective: 1px;   
+    padding: 291px 0px 235px 0px;
+    background-image: url(/Imagem/Resized/Snow.jpg);
+    background-attachment:fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: -1;   
+}
+.title{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-family: 'Noto Sans Khmer', sans-serif;
+    color: #d4d4ea;
+    margin: 10px 0px;
+}
+h1{     
+    font-size: 70px;
+    text-shadow: 2px 2px #000000;       
+}
+h2{
+    font-size: 25px;
+    text-shadow: 3px 2px #444444;
+}
+.feature-content{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    height: 570px;
+    padding: 70px 0px 0px;
+    perspective: 3px;
+    position: relative;
+    z-index: 1;
+}
+.info-box{    
+    display:flex;    
+    height: max-content;
+    width: 360px;
+    margin: 0px 15px 15px;
+    flex-direction: column;   
+}
+#box-1{
+    background-color: #f2f2f2;
+}
+h3{
+    margin: 20px 0px 10px;
+    padding: 0px 20px;
+    font-family: 'Merriweather', serif;
+    font-size: 22px;
+}
+.img-sec-1{
+    width: 360px;
+    height: 180px;
+    object-fit: cover;    
+}
+.description-1{
+    padding: 0px 20px 30px;
+    color: #333333;
+    
+}
+.button-1{
+    padding: 10px 30px;
+    width: 30%;
+    margin: 10px 35% 35px;
+    font-family: 'Merriweather', serif;
+    background-color: rgb(8, 202, 67);
+    border-radius: 5px;
+    border: 0px;
+    color: #f2f2f2;
+}
+#box-2{
+    background-color: #f2f2f2;
+}
+.button-2{
+    padding: 10px 30px;
+    width: 30%;
+    margin: 10px 35% 35px;
+    font-family: 'Merriweather', serif;
+    background-color: rgb(221, 153, 5);
+    border-radius: 5px;
+    border: 0px;
+    color: #f2f2f2;
+}
+#box-3{
+    background-color: #f2f2f2;
+}
+.button-3{
+    padding: 10px 30px;
+    width: 30%;
+    margin: 10px 35% 35px;
+    font-family: 'Merriweather', serif;
+    background-color: rgb(216, 9, 9);
+    border-radius: 5px;
+    border: 0px;
+    color: #f2f2f2;
+}
+.mid-content{
+    height: min-content;
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    width: auto;
+    padding: 0px 0px 60px;
+}
+.mid-content > div{
+    width: 555px;
+    height: max-content;
+    background-color: #f2f2f2; 
+    padding-bottom: 36px;
+    margin: 0px 15px;          
+}
+.mid-cont-img{
+    width: 555px;
+    height: 240px;
+    object-fit: cover;
+}
+h4{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px 10px;
+    font-family:'Merriweather', serif;
+    font-size: 20px;
+    color: #666666;
+}
+.mid-cont-text{
+    padding: 27px;
+    width: 455px;
+    margin: auto;    
+}
+.read-more{
+    padding: 10px 30px;    
+    border-radius: 12px;
+    background-color: white;
+    position: relative;
+    left: 56%;
+    border: solid;
+    border-width: 1px;
+    border-color: #c2c2c2;
+    font-size: 18px;
+    font-family: 'Noto Sans Khmer';
+    color: #666666;
+}
+
+
+.service-description{
+    padding: 60px 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: max-content;
+    background-image: url(/Imagem/Resized/Salvador.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 60px;
+    position: relative;
+    z-index: 2;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.service-section > .service-description > *{
+    color: white;
+    font-family: 'Noto Sans Khmer';
+    text-shadow: 2px 1px black;
+}
+#h-service{
+    font-size: 36px;
+    margin: 20px 0px;
+}
+.service-section > .service-description > p{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+.service-list{
+    height: max-content;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    padding: 65px 100px;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+.service-list > div{
+    height: auto;
+    width: 260px;
+    margin: 0px 16px;
+    background-color: #f2f2f2;
+    display: grid;
+    grid-template-rows: max-content 50px 1fr;   
+}      
+
+
+.service-list > div >img{
+    object-fit:cover;
+    width: 260px;
+    height: 260px;
+}
+
+.service-list > div > p{
+    padding: 10px 20px;
+    font-family: 'Noto Sans Khmer';
+    color: #333333;
+
+}
+#button-list{
+    margin: 20px auto;
+    position: relative;
+    display: flex;
+    left: 0%;
+    bottom: 0%;
+}
+.button-list-container{
+    justify-self: flex-end;
+    align-self: center;
+    margin: auto;
+}
+.big-column{
+    height: max-content;
+    width: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.big-column > img{
+    margin: auto;
+    height: 420px;
+    width: 1140px;
+    object-fit: none;
+}
+.big-column-title{
+    display: flex;
+    width: 1111.8px;
+    margin: auto;
+    background-color: #f2f2f2;
+    padding: 0px 0px 30px 30px;
+    flex-direction: column;
+    align-items: flex-start;    
+}
+.big-column-title > p{
+    
+    font-family: 'Noto Sans Khmer';
+    color: #333333;
+    padding: 0px 50px 0px 0px;
+    margin-bottom: 10px;
+}
+#big-column-button{
+    position: inherit;
+    margin-top: 15px;
+}
+.contact-section{
+    background-image: url(/Imagem/Resized/mountain.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.contact-content{
+    height: 600px;
+    width: 600px;    
+    display: flex;
+    margin: auto;
+    padding: 60px 0px;
+    flex-direction: column;
+}
+h6{
+    color: #fff;
+    text-transform: capitalize;
+    text-shadow: 2px 2px #333;
+    font-size: 36px;
+    font-family: 'Noto Sans Khmer';
+    margin: 20px auto 30px;
+    height: min-content;
+}
+.contact-content > p{
+    font-family: 'Noto Sans Khmer';
+    text-align: center;
+    background-color: rgba(242, 242, 242, 0.4);
+    padding: 20px;
+    border-radius: 5px;
+}
+.contact-input{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.contact-container{
+    display: flex;
+    padding: 30px 0px;
+    width: 100%;
+    justify-content: center;
+}
+.contact-container > div{
+    padding: 0px 20px;
+}
+#message{
+    height: 144px;
+    width: 377px;
+    background-color: rgba(242, 242, 242, 0.4);
+    border-radius: 7px;
+}
+.contact-input > input{
+    padding: 6px 12px;
+    margin-bottom: 15px;
+    width: 345px;
+    background-color: rgba(242, 242, 242, 0.4);
+    border-style: unset;
+    border-radius: 7px;
+}
+::placeholder{
+    color: white;
+    text-shadow: 2px 0 #000, -2px 0 #000, 0 2px #000, 0 -2px #000,
+    1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #000; 
+}
+:-ms-input-placeholder{
+    color: white;
+    text-shadow: 2px 0 #000, -2px 0 #000, 0 2px #000, 0 -2px #000,
+    1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #000;
+}
+::-ms-input-placeholder{
+    color: white;
+    text-shadow: 2px 0 #000, -2px 0 #000, 0 2px #000, 0 -2px #000,
+    1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #000;
+}
+footer{
+    width: auto;
+    height: 32vh;
+}
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.github-container{
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    border-radius: 25px
+}
+#github-link{
+    height: max-content;
+    width: max-content;
+    background-color: #000000;
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 15px;
+    font-family: 'Noto Sans Khmer';
+    color: #f2f2f2;
+    text-decoration: auto;
+    font-size: 22px;
+}
+.github-container > img{
+    height: 7vh;
+    width: 4vw;
+    padding: 2px 10px;
+}
+#end-title{
+    text-shadow: 0px 0px;
+    color: #535353;
+}
+.footer-container > p{
+    font-family: 'Noto Sans Khmer';
+    padding: 0px 0px 20px;
+    text-align: center;
+    line-height: 30px;
+}
+
